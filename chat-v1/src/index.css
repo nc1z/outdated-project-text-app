@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* background */
+  --color-bg-primary: #F6E2D5;
+  --color-bg-secondary: #5c5b92;
+  --color-bg-sand: #FCD8B4;
+  --color-bg-white: #FFFFFF;
+
+  /* Chatbox & Forms */
+  --color-bg-black: #000000;
+  /* --color-bg-darkBlue: #4291D2; */
+  --color-bg-darkBlue: #444370;
+  /* --color-bg-blue: #64AAE2; */
+  --color-bg-blue: #2d3748;
+  /* --color-bg-grayBlue: #92C5EF; */
+  --color-bg-grayBlue: #374358;
+  /* --color-bg-lightBlue: #e0f0fd; */
+  --color-bg-lightBlue: #4f546b;
+
+  /* Text */
+  --color-text-primary: #000000;
+  --color-text-secondary: #FFFFFF;
+  --color-text-accent: #64AAE2;
+  /* --color-text-header: #4291D2; */
+  --color-text-header: #444370;
+  --color-text-light: #a1a1a1;
+  --color-text-sand: #FCD8B4;
+
+  /* Fields and buttons */
+  --color-bg-input: #dee0e4;
+  --color-bg-box: #FCD8B4;
+  --color-bg-box-dark: #FCD8B4;
+}
+
+.rounded-div {
+  @apply border rounded-2xl shadow-lg max-w-[1140px] mx-auto
+}
+
+.chat-bubble-left {
+  @apply border rounded-r-xl rounded-b-xl bg-darkBlue border-darkBlue text-secondary py-2 px-4 max-w-max
+}
+
+.chat-bubble-right {
+  @apply border rounded-l-xl rounded-b-xl bg-darkBlue border-darkBlue text-secondary py-2 px-4 max-w-max
+}
